@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de contacto</title>
+        <link rel="stylesheet" href="./style/contactoStyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>Animales Lindos</h1>
+    <form>
+        <fieldset class="contenedor">
+            
+            <legend>
+                <h3>Formulario de Contacto</h3>
+            </legend>
+            
+            <div>
+                <label for="nombre-usuario">Nombre y Apellido</label>
+            </div>
+            <div>
+                <input type="text" id="nombre-usuario" name="nombre-usuario">
+            </div>
+            &nbsp
+            <div>
+                Por que medio quiere que lo contactemos?
+                <div>
+                    <label for="contacto-telefono">Telefono</label>
+                    <input type="radio" id="contacto-telefono" name="metodo-contacto" value="metodo-contacto">
+
+                    <label for="contacto-email">Email</label>
+                    <input type="radio" id="contacto-email" name="metodo-contacto" value="metodo-email">
+                </div>
+            </div>
+            &nbsp
+            <div>
+                <label for="numero-usuario">Numero de celular</label>
+                </div>
+                <input type="number" name="numero-usuario" id="numero-usuario">
+
+            </div>
+            &nbsp
+            <div>
+                <label for="email-usuario">Email</label>
+            </div>
+            <div>
+                <input type="email" id="email-usuario" name="email-usuario">
+            </div>
+            &nbsp
+            <div>
+            <label for="mensaje-usuario">Mensaje</label>
+        </div>
+            <div>
+                <textarea name="mensaje-usuario" id="mensaje-usuario" cols="30" rows="10"></textarea>
+            </div>
+            &nbsp
+            <div>
+                <label for="apuebalo-usuario">Te gusta este formulario? apruebalo 😃 </label>
+                <input type="checkbox" name="apuebalo-usuario" id="apuebalo-usuario">
+            </div>
+            &nbsp
+            <div>
+                <label for="valoracion-usuario">Valora mi formulario</label>
+                <select name="valoracion-usuario" id="valoracion-usuario">
+
+                    <option value="valoracion-10">10</option>
+                    <option value="valoracion-9">9</option>
+
+                </select>
+            </div>
+            <button class="button" type="submit">Contactenos</button>
+        </fieldset>
+        
+        <footer>
+            <ul>
+                <li class="footer"> <a href="../index.html">Pagina Principal</a></li>
+            </ul>
+        </footer>
+        
+
+    </form>
+
+    
+    
+
+</body></html>
